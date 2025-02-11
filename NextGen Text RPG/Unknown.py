@@ -45,6 +45,8 @@ def GenerateChests():
 
 GenerateChests()
 
+print("Hello, Tom")
+
 def CheckPossibleMovements():
     global YPosition, XPosition, RestrictedX, RestrictedY
     cangonorth = False
